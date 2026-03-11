@@ -1,36 +1,134 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# WBlu – Water Bottle Brand Website
 
-## Getting Started
+A modern brand showcase website built for **WBlu**, designed to represent the brand and allow customers or partners to contact the company.
 
-First, run the development server:
+The website highlights the brand, showcases the product line, and provides a simple contact form for inquiries.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## 🚀 Live Website
+
+https://wblu.vercel.app
+
+---
+
+## 🧰 Tech Stack
+
+* **Next.js** – React framework for building the UI
+* **Tailwind CSS** – Utility-first styling
+* **Framer Motion** – Smooth animations
+* **Formspree** – Contact form handling (no backend required)
+* **Vercel** – Hosting and deployment
+
+---
+
+## ✨ Features
+
+* Responsive design for desktop and mobile
+* Smooth scrolling navigation
+* Product showcase section
+* Brand feature highlights
+* Contact form with email notifications
+* Clean red & white brand theme
+* Animated UI elements
+* Deployed on Vercel
+
+---
+
+## 📂 Project Structure
+
+```
+src
+ ├ app
+ │   ├ favicon.ico
+ │   ├ globals.css
+ │   ├ layout.tsx
+ │   └ page.tsx
+ │
+ ├ components
+ │   ├ Navbar.tsx
+ │   ├ Hero.tsx
+ │   ├ Products.tsx
+ │   ├ Features.tsx
+ │   ├ ContactForm.tsx
+ │   └ Footer.tsx
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ⚙️ Installation & Setup
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Clone the repository:
 
-## Learn More
+```
+git clone https://github.com/yourusername/wblu-website.git
+```
 
-To learn more about Next.js, take a look at the following resources:
+Go to the project directory:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+cd wblu-website
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Install dependencies:
 
-## Deploy on Vercel
+```
+npm install
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Run the development server:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+npm run dev
+```
+
+Open in browser:
+
+```
+http://localhost:3000
+```
+
+---
+
+## 📬 Contact Form
+
+The contact form is powered by **Formspree**.
+
+When users submit the form:
+
+1. The request is sent to Formspree
+2. Formspree forwards the message to the configured email
+
+No backend server is required.
+
+---
+
+## 🌐 Deployment
+
+The project is deployed using **Vercel**.
+
+Deployment process:
+
+1. Push the project to GitHub
+2. Import the repository in Vercel
+3. Click **Deploy**
+
+The site will be live within seconds.
+
+---
+
+## 🎨 Brand Theme
+
+Primary Colors:
+
+* Dark Red: `#3b0000`
+* Accent Red: `#dc2626`
+* White Background
+
+The design emphasizes a **clean and modern red-white aesthetic** that reflects the WBlu brand identity.
+
+---
+
+## 📄 License
+
+This project was built as a brand website for **WBlu**.
