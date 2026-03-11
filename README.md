@@ -61,7 +61,7 @@ src
 Clone the repository:
 
 ```
-git clone https://github.com/yourusername/wblu-website.git
+git clone https://github.com/akexpressin/wblu-site.git
 ```
 
 Go to the project directory:
