@@ -67,7 +67,7 @@ git clone https://github.com/akexpressin/wblu-site.git
 Go to the project directory:
 
 ```
-cd wblu-website
+cd wblu-site
 ```
 
 Install dependencies:
