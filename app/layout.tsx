@@ -18,3 +18,8 @@ export default function RootLayout({
     </html>
   );
 }
+
+export const metadata = {
+  title: "WBlu",
+  description: "Premium reusable water bottles",
+};
